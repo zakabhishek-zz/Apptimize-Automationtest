@@ -56,3 +56,5 @@ driver.find_element_by_css_selector('//*[@id="experiment-setup-view"]/div/div[2]
 #Logout
 logout_arrow=driver.find_element_by_xpath('//*[@id="zet-navbar-caretdown"]').click()
 logout_signout=driver.find_element_by_xpath('//*[@id="zet-navbar-signout"]').click()
+
+driver.close()
